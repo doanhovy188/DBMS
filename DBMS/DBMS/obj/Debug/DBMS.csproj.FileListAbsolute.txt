@@ -1,0 +1,15 @@
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\bin\Debug\DBMS.exe.config
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\bin\Debug\DBMS.exe
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\bin\Debug\DBMS.pdb
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\bin\Debug\EntityFramework.dll
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\bin\Debug\EntityFramework.xml
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.csprojAssemblyReference.cache
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.Form1.resources
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.Properties.Resources.resources
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.csproj.GenerateResource.cache
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.csproj.CoreCompileInputs.cache
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.csproj.CopyComplete
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.exe
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.pdb

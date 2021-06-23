@@ -35,3 +35,6 @@ D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Name_Check.r
 D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Price.resources
 D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Phone.resources
 D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Phone_Num.resources
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.New_Login.resources
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Grant.resources
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Revoke.resources

@@ -69,11 +69,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Grant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grant.Designer.cs">
+      <DependentUpon>Grant.cs</DependentUpon>
+    </Compile>
     <Compile Include="Name_Check.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Name_Check.Designer.cs">
       <DependentUpon>Name_Check.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New_Login.Designer.cs">
+      <DependentUpon>New_Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Phone.cs">
       <SubType>Form</SubType>
@@ -107,14 +119,26 @@
     <Compile Include="Remove_Acc.Designer.cs">
       <DependentUpon>Remove_Acc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Revoke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Revoke.Designer.cs">
+      <DependentUpon>Revoke.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Add_Acc.resx">
       <DependentUpon>Add_Acc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Grant.resx">
+      <DependentUpon>Grant.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Name_Check.resx">
       <DependentUpon>Name_Check.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New_Login.resx">
+      <DependentUpon>New_Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phone.resx">
       <DependentUpon>Phone.cs</DependentUpon>
@@ -139,6 +163,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Remove_Acc.resx">
       <DependentUpon>Remove_Acc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Revoke.resx">
+      <DependentUpon>Revoke.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

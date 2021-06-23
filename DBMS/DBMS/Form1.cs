@@ -122,5 +122,20 @@ namespace DBMS {
             string query = "select * from Tim_Khach_Hang ('" + Num_phone + "')";
             dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
         }
+
+        private void thêmUserToolStripMenuItem_Click(object sender, EventArgs e) {
+            New_Login new_Login = new New_Login();
+            new_Login.ShowDialog();
+        }
+
+        private void phânQuyềnToolStripMenuItem_Click(object sender, EventArgs e) {
+            Grant grant = new Grant();
+            grant.ShowDialog();
+        }
+
+        private void xoáPhânQuyềnToolStripMenuItem_Click(object sender, EventArgs e) {
+            Revoke revoke = new Revoke();
+            revoke.ShowDialog();
+        }
     }
 }

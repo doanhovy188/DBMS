@@ -13,7 +13,7 @@ namespace DBMS
 {
     class DBMain
     {
-        string ConnStr = @"Data Source=(local);Initial Catalog=PHONEDBMS;Integrated Security=True";
+        string ConnStr = Connect.connection_String;
         SqlConnection conn = null;
         SqlCommand comm = null;
         SqlDataAdapter da = null;

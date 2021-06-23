@@ -9,49 +9,117 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DBMS
-{
-    public partial class Form1 : Form
-    {
-        string connStr = "Data Source=(local);Initial Catalog = PHONEDBMS; Integrated Security = True";
-        SqlCommand cmd = null;
-        SqlConnection conn = null;
-        
-        public Form1()
-        {
+namespace DBMS {
+    public partial class Form1 : Form {
+        DBMain db = new DBMain();
+        public Form1() {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
+        public static string Ram;
+        public static string NhanVien;
+        public static string price;
+        public static string name_phone;
+        public static string Num_phone;
+        private void label1_Click(object sender, EventArgs e) {
             Close();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            DBMain db = new DBMain();
-            string query = "select * from View_ChiTietGiaoDich";
-            dataGridView1.DataSource = db.ExecuteQueryDataSet(query,CommandType.Text);
+        private void Form1_Load(object sender, EventArgs e) {
+            //string query = "set dateformat ymd select * from View_ChiTietGiaoDich";
+            //dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
         }
 
-        private void showToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            DBMain db = new DBMain();
-            string query = "select * from Accounts";
-            dataGridView1.DataSource = db.ExecuteQueryDataSet(query,CommandType.Text);
+        private void showToolStripMenuItem_Click(object sender, EventArgs e) {
+            string query = "select * from View_ListNhanVien";
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
         }
 
-        private void showToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            DBMain db = new DBMain();
+        private void showToolStripMenuItem1_Click(object sender, EventArgs e) {
             string query = "select * from Phone";
             dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
         }
 
-        private void showToolStripMenuItem2_Click(object sender, EventArgs e)
-        {
-            DBMain db = new DBMain();
+        private void showToolStripMenuItem2_Click(object sender, EventArgs e) {
             string query = "select * from Customer";
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
+        }
+
+        private void bánChạyToolStripMenuItem_Click(object sender, EventArgs e) {
+            string query = "select * from Dien_Thoai_Ban_Chay_Hang_Thang";
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
+        }
+
+        private void ramGiáTốtToolStripMenuItem_Click(object sender, EventArgs e) {
+            RamCheap ramCheap = new RamCheap();
+            ramCheap.ShowDialog();
+            string query = "select * from sp_RamManhGiaRe ('" + Ram + " GB')";
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
+        }
+
+        private void khôngBánĐượcToolStripMenuItem_Click(object sender, EventArgs e) {
+            DateTime dateTime = DateTime.Now;
+            string query = "exec Dien_Thoai_Chua_Ban_Duoc_Trong_Thang_Nam " + dateTime.Month + "," + dateTime.Year;
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
+        }
+
+        private void xuấtSắcNhấtCácThángToolStripMenuItem_Click(object sender, EventArgs e) {
+            string query = "select * from Nhan_Vien_Xuat_Sac";
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
+        }
+
+        private void kháchHàngThânThiếtToolStripMenuItem_Click(object sender, EventArgs e) {
+            string query = "select * from View_top3_KH_Nap_Nhieu order by total_money_Spent desc";
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
+        }
+
+        private void addToolStripMenuItem_Click(object sender, EventArgs e) {
+            Add_Acc add_Acc = new Add_Acc();
+            add_Acc.ShowDialog();
+        }
+
+        private void xoaToolStripMenuItem_Click(object sender, EventArgs e) {
+            Remove_Acc remove_Acc = new Remove_Acc();
+            remove_Acc.ShowDialog();
+        }
+
+        private void rogPhoneBánĐượcthángToolStripMenuItem_Click(object sender, EventArgs e) {
+            string query = "select * from View_Tong_ROG_Ban_Trong_Thang";
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
+        }
+
+        private void giaoDịchthángToolStripMenuItem_Click(object sender, EventArgs e) {
+            DateTime dateTime = DateTime.Now;
+            Name_Check name_Check = new Name_Check();
+            name_Check.ShowDialog();
+            string query = "declare @sum_trans_on_emp int exec sp_Tong_So_GD_on_emps_by_Date '"+NhanVien+"','" + dateTime.Year + "/" + dateTime.Month + "/" + dateTime.Day + "',@sum_trans_on_emp out select @sum_trans_on_emp";
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
+        }
+
+        private void điệnThoạiGiáRẻHơnToolStripMenuItem_Click(object sender, EventArgs e) {
+            Price pricess = new Price();
+            pricess.ShowDialog();
+            string query = "select * from func_MauDTcoGiaDuoi ('"+price+"')";
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
+        }
+
+        private void điệnThoạiGiáĐắtHơnToolStripMenuItem_Click(object sender, EventArgs e) {
+            Price pricess = new Price();
+            pricess.ShowDialog();
+            string query = "select * from func_MauDTcoGiaTren ('" + price + "')";
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
+        }
+
+        private void tìmKháchHàngQuaTênĐtToolStripMenuItem_Click(object sender, EventArgs e) {
+            Phone phone = new Phone();
+            phone.ShowDialog();
+            string query = "select * from func_AiDaMuaDt ('" + name_phone + "')";
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
+        }
+
+        private void tìmKháchHàngQuaSdtToolStripMenuItem_Click(object sender, EventArgs e) {
+            Phone_Num phone_numm = new Phone_Num();
+            phone_numm.ShowDialog();
+            string query = "select * from Tim_Khach_Hang ('" + Num_phone + "')";
             dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
         }
     }

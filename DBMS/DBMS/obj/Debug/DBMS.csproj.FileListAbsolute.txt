@@ -13,3 +13,25 @@ C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.cspro
 C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.csproj.CopyComplete
 C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.exe
 C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.pdb
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\bin\Debug\DBMS.exe.config
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\bin\Debug\DBMS.exe
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\bin\Debug\DBMS.pdb
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\bin\Debug\EntityFramework.dll
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\bin\Debug\EntityFramework.SqlServer.dll
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\bin\Debug\EntityFramework.xml
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\bin\Debug\EntityFramework.SqlServer.xml
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.csproj.AssemblyReference.cache
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Form1.resources
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Properties.Resources.resources
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.csproj.GenerateResource.cache
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.csproj.CoreCompileInputs.cache
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.csproj.CopyComplete
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.exe
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.pdb
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Add_Acc.resources
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Remove_Acc.resources
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.RamCheap.resources
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Name_Check.resources
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Price.resources
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Phone.resources
+D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Phone_Num.resources

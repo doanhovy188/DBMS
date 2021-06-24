@@ -28,9 +28,10 @@ namespace DBMS {
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(90, 82);
+            this.button1.Location = new System.Drawing.Point(150, 145);
+            this.button1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(125, 41);
             this.button1.TabIndex = 0;
             this.button1.Text = "ok";
             this.button1.UseVisualStyleBackColor = true;
@@ -38,28 +39,33 @@ namespace DBMS {
             // 
             // Phone_Num_Textbox
             // 
-            this.Phone_Num_Textbox.Location = new System.Drawing.Point(33, 56);
+            this.Phone_Num_Textbox.Location = new System.Drawing.Point(55, 99);
+            this.Phone_Num_Textbox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Phone_Num_Textbox.Name = "Phone_Num_Textbox";
-            this.Phone_Num_Textbox.Size = new System.Drawing.Size(201, 20);
+            this.Phone_Num_Textbox.Size = new System.Drawing.Size(332, 30);
             this.Phone_Num_Textbox.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(77, 22);
+            this.label1.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(162, 40);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 13);
+            this.label1.Size = new System.Drawing.Size(95, 23);
             this.label1.TabIndex = 2;
             this.label1.Text = "Nhập số dt";
             // 
             // Phone_Num
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(273, 133);
+            this.ClientSize = new System.Drawing.Size(455, 235);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Phone_Num_Textbox);
             this.Controls.Add(this.button1);
+            this.Font = new System.Drawing.Font("Calibri", 14F);
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "Phone_Num";
             this.Text = "Name";
             this.ResumeLayout(false);

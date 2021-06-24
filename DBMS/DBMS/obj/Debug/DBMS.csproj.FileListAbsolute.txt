@@ -38,3 +38,14 @@ D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Phone_Num.re
 D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.New_Login.resources
 D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Grant.resources
 D:\Document_F\Hoc Ki 4\DBMS\Final\App\DBMS\DBMS\DBMS\obj\Debug\DBMS.Revoke.resources
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.Add_Acc.resources
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.Grant.resources
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.Name_Check.resources
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.New_Login.resources
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.Phone.resources
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.Phone_Num.resources
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.Price.resources
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.RamCheap.resources
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.Remove_Acc.resources
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.Revoke.resources
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.ThemDienThoai.resources

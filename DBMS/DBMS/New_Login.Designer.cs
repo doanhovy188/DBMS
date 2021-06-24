@@ -34,23 +34,26 @@ namespace DBMS {
             // 
             // userName_Textbox
             // 
-            this.userName_Textbox.Location = new System.Drawing.Point(85, 57);
+            this.userName_Textbox.Location = new System.Drawing.Point(142, 101);
+            this.userName_Textbox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.userName_Textbox.Name = "userName_Textbox";
-            this.userName_Textbox.Size = new System.Drawing.Size(218, 20);
+            this.userName_Textbox.Size = new System.Drawing.Size(361, 30);
             this.userName_Textbox.TabIndex = 0;
             // 
             // passWord_Textbox
             // 
-            this.passWord_Textbox.Location = new System.Drawing.Point(85, 101);
+            this.passWord_Textbox.Location = new System.Drawing.Point(142, 179);
+            this.passWord_Textbox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.passWord_Textbox.Name = "passWord_Textbox";
-            this.passWord_Textbox.Size = new System.Drawing.Size(218, 20);
+            this.passWord_Textbox.Size = new System.Drawing.Size(361, 30);
             this.passWord_Textbox.TabIndex = 1;
             // 
             // Add_button
             // 
-            this.Add_button.Location = new System.Drawing.Point(129, 148);
+            this.Add_button.Location = new System.Drawing.Point(215, 262);
+            this.Add_button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Add_button.Name = "Add_button";
-            this.Add_button.Size = new System.Drawing.Size(75, 23);
+            this.Add_button.Size = new System.Drawing.Size(125, 41);
             this.Add_button.TabIndex = 2;
             this.Add_button.Text = "Ok";
             this.Add_button.UseVisualStyleBackColor = true;
@@ -59,41 +62,47 @@ namespace DBMS {
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 60);
+            this.label1.Location = new System.Drawing.Point(22, 106);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.Size = new System.Drawing.Size(91, 23);
             this.label1.TabIndex = 3;
             this.label1.Text = "UserName";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 104);
+            this.label2.Location = new System.Drawing.Point(20, 184);
+            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 13);
+            this.label2.Size = new System.Drawing.Size(88, 23);
             this.label2.TabIndex = 4;
             this.label2.Text = "PassWord";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(100, 21);
+            this.label3.Font = new System.Drawing.Font("Calibri", 16F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(199, 36);
+            this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 13);
+            this.label3.Size = new System.Drawing.Size(151, 27);
             this.label3.TabIndex = 5;
             this.label3.Text = "Thêm user mới";
             // 
             // New_Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(327, 193);
+            this.ClientSize = new System.Drawing.Size(545, 341);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Add_button);
             this.Controls.Add(this.passWord_Textbox);
             this.Controls.Add(this.userName_Textbox);
+            this.Font = new System.Drawing.Font("Calibri", 14F);
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "New_Login";
             this.Text = "Add_Acc";
             this.ResumeLayout(false);

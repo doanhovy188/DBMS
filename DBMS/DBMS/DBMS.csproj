@@ -125,6 +125,12 @@
     <Compile Include="Revoke.Designer.cs">
       <DependentUpon>Revoke.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThemDienThoai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemDienThoai.Designer.cs">
+      <DependentUpon>ThemDienThoai.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Add_Acc.resx">
       <DependentUpon>Add_Acc.cs</DependentUpon>
     </EmbeddedResource>
@@ -166,6 +172,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Revoke.resx">
       <DependentUpon>Revoke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemDienThoai.resx">
+      <DependentUpon>ThemDienThoai.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

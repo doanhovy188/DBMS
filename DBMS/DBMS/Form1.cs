@@ -91,7 +91,7 @@ namespace DBMS {
             DateTime dateTime = DateTime.Now;
             Name_Check name_Check = new Name_Check();
             name_Check.ShowDialog();
-            string query = "declare @sum_trans_on_emp int exec sp_Tong_So_GD_on_emps_by_Date '"+NhanVien+"','" + dateTime.Year + "/" + dateTime.Month + "/" + dateTime.Day + "',@sum_trans_on_emp out select @sum_trans_on_emp";
+            string query = "declare @sum_trans_on_emp int exec sp_Tong_So_GD_on_emps_by_Date '"+NhanVien+"','" + dateTime.Year + "/" + dateTime.Month + "/" + dateTime.Day + "',@sum_trans_on_emp out select @sum_trans_on_emp as 'Tổng số giao dịch'";
             dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
         }
 
@@ -136,6 +136,12 @@ namespace DBMS {
         private void xoáPhânQuyềnToolStripMenuItem_Click(object sender, EventArgs e) {
             Revoke revoke = new Revoke();
             revoke.ShowDialog();
+        }
+
+        private void thêmĐiệnThoạiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ThemDienThoai themDienThoai = new ThemDienThoai();
+            themDienThoai.ShowDialog();
         }
     }
 }

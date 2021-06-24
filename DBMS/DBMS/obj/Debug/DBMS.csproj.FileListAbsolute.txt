@@ -49,3 +49,4 @@ C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.RamCh
 C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.Remove_Acc.resources
 C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.Revoke.resources
 C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.ThemDienThoai.resources
+C:\Users\doanh\OneDrive\Documents\CuoiKiDBMS\DBMS\DBMS\DBMS\obj\Debug\DBMS.ChonThoiGian.resources

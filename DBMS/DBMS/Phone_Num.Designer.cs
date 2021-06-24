@@ -39,7 +39,7 @@ namespace DBMS {
             // 
             // Phone_Num_Textbox
             // 
-            this.Phone_Num_Textbox.Location = new System.Drawing.Point(55, 99);
+            this.Phone_Num_Textbox.Location = new System.Drawing.Point(55, 93);
             this.Phone_Num_Textbox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Phone_Num_Textbox.Name = "Phone_Num_Textbox";
             this.Phone_Num_Textbox.Size = new System.Drawing.Size(332, 30);

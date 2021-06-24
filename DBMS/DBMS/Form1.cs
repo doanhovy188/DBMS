@@ -12,6 +12,7 @@ using System.Windows.Forms;
 namespace DBMS {
     public partial class Form1 : Form {
         DBMain db = new DBMain();
+        public int nam, thang;
         public Form1() {
             InitializeComponent();
         }
@@ -57,8 +58,9 @@ namespace DBMS {
         }
 
         private void khôngBánĐượcToolStripMenuItem_Click(object sender, EventArgs e) {
-            DateTime dateTime = DateTime.Now;
-            string query = "exec Dien_Thoai_Chua_Ban_Duoc_Trong_Thang_Nam " + dateTime.Month + "," + dateTime.Year;
+            ChonThoiGian time = new ChonThoiGian();
+            time.ShowDialog();
+            string query = "exec Dien_Thoai_Chua_Ban_Duoc_Trong_Thang_Nam " + thang.ToString() + "," + nam.ToString();
             dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
         }
 
@@ -136,6 +138,26 @@ namespace DBMS {
         private void xoáPhânQuyềnToolStripMenuItem_Click(object sender, EventArgs e) {
             Revoke revoke = new Revoke();
             revoke.ShowDialog();
+        }
+
+        private void tổngDoanhThuTrongThángToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChonThoiGian time = new ChonThoiGian();
+            time.ShowDialog();
+            string query = "select * from Doanh_Thu_Trong_Thang_Nam (" + thang.ToString() + "," + nam.ToString()+")";
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
+        }
+
+        private void showToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            string query = "select * from Transactions";
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
+        }
+
+        private void chiTiếtCácGiaoDịchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string query = "set dateformat ymd select * from View_ChiTietGiaoDich";
+            dataGridView1.DataSource = db.ExecuteQueryDataSet(query, CommandType.Text);
         }
 
         private void thêmĐiệnThoạiToolStripMenuItem_Click(object sender, EventArgs e)

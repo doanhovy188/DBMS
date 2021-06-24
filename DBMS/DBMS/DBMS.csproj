@@ -61,6 +61,12 @@
     <Compile Include="Add_Acc.Designer.cs">
       <DependentUpon>Add_Acc.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChonThoiGian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChonThoiGian.Designer.cs">
+      <DependentUpon>ChonThoiGian.cs</DependentUpon>
+    </Compile>
     <Compile Include="Connect.cs" />
     <Compile Include="DBMain.cs" />
     <Compile Include="Form1.cs">
@@ -133,6 +139,9 @@
     </Compile>
     <EmbeddedResource Include="Add_Acc.resx">
       <DependentUpon>Add_Acc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChonThoiGian.resx">
+      <DependentUpon>ChonThoiGian.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
